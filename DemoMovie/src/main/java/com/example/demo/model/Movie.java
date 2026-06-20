@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class Movie {
 
 	@Id
+		private int id;
 		private String name;
-		private String director;
 		private int ratings;
 }
